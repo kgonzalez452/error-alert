@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+}
+
+.error-container{
+  
+  border: 2px solid red;
+  height: 100px;
+  border-radius: 9px;
+  align-items: center;
+  font-size: 24px;
+  width: 745px;
+}
+
+.error-alert{
+  color: red;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(252, 0, 0, 0.336);
+}
+
+#root{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-icon, .error-close{
+  font-size: 40px;
+}
+
+.error-title{
+  font-weight: bold;
+}
